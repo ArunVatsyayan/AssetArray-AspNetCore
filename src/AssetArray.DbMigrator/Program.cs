@@ -13,6 +13,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Information()
             .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
